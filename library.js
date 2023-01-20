@@ -23,7 +23,7 @@ It has rules for paragraph tags so that every title is consistent.
 
 
 
-let addButton = document.querySelector('adder');
+let addButton = document.querySelector('#adder');
 let addBook = addButton.addEventListener('click', function(){
 	myLibrary.push(bookObj);
 });
